@@ -1,3 +1,10 @@
+# Luxor construction website by jo17-dev
+
+<img src="./result.jpg" style="width: 60%; height: auto" > 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

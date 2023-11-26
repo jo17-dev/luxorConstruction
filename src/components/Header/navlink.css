@@ -1,0 +1,17 @@
+.nav-item{
+    margin-left: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item a{
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    height: 100%;
+    color: white;
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
