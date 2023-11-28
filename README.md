@@ -1,6 +1,6 @@
 # Luxor construction website by jo17-dev
 
-<img src="./result.jpg" style="width: 60%; height: auto" > 
+<img src="./result.jpg" style="width: 6 0%; height: auto" > 
 
 
 

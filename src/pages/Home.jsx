@@ -1,6 +1,7 @@
 import Header from "../containers/Header/Header";
 import Img from "../components/Img/Img";
 import { Button } from "../components/Forms/Button/Button";
+import { Section } from "../containers/Section/Section";
 import './home.css';
 
 const Home = ()=> {
@@ -19,6 +20,8 @@ const Home = ()=> {
                     <Img link="/images/casqueFinal.png " />
                 </div>
             </div>
+            <Section idSection="avantages" className="avantage-section" />
+            <Section idSection="qui-nous-sommes" className="big-section" />
 
         </>
     )

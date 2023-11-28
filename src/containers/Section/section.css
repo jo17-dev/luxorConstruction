@@ -1,0 +1,23 @@
+@import url('../../index.css');
+
+.big-section{
+    background-color: white;
+    padding-top: 6vh;
+}
+
+.avantage-section{
+    background-color: var(--second-orange);
+    position: relative;
+    width: 60%;
+    min-height: 125px;
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px 2px var(--shadow-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+}
