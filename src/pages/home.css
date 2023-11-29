@@ -8,14 +8,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
-/* #home ::before{
-    content: "ewef";
-    position: absolute;
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    opacity: 0.1;
-} */
 
 
 #home .side-section{

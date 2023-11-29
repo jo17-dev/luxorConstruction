@@ -22,6 +22,7 @@ const Home = ()=> {
             </div>
             <Section idSection="avantages" className="avantage-section" />
             <Section idSection="qui-nous-sommes" className="big-section" />
+            <Section idSection="services" className="section" />
 
         </>
     )
