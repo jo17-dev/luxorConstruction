@@ -1,6 +1,7 @@
 import './section.css';
 import { DescriptionCard } from '../DesctiptionCard/DescriptionCard';
 import {Button} from '../../components/Forms/Button/Button';
+import { Children } from 'react';
 
 export const Section = (props)=>{
     if(props.idSection == "avantages"){
@@ -27,7 +28,7 @@ export const Section = (props)=>{
 
     return (
         <section id={props.idSection} className={props.className} >
-            <Button value="Demandez votre devis" className='devis-btn' />
+            {props.children}
         </section>
     )
 }

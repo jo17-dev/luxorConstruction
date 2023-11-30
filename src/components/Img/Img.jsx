@@ -8,7 +8,7 @@ import './img.css';
 const Img = (props)=>{
     return (
         <>
-        <img src={props.link} alt={props?.alt || "image description"}/>
+        <img src={props.link} alt={props?.alt || "image description"} className={props?.className} />
         </>
     );
 }

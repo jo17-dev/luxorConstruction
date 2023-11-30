@@ -2,3 +2,10 @@
     width: 100vw;
     height: 100vh;
 }
+
+.aisde-img{
+    width: 56%;
+    height: auto;
+    margin: 20px;
+    border-radius: 0% 10% 10% 10%;
+}

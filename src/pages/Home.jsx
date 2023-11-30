@@ -21,8 +21,41 @@ const Home = ()=> {
                 </div>
             </div>
             <Section idSection="avantages" className="avantage-section" />
-            <Section idSection="qui-nous-sommes" className="big-section" />
-            <Section idSection="services" className="section" />
+            <Section idSection="services" className="section">
+                <Button value="Demandez votre devis" className='devis-btn' />
+            </Section>
+            <Section idSection="qui-nous-sommes" className="big-section">
+                <aside className="left">
+                    <Img link="/images/structure-metallique-batiment.jpg" className="aisde-img" />
+                    <Img link="/images/plans-en-main.png" className="aisde-img" />
+                </aside>
+                <aside className="right">
+                    <h3>Notre histoire</h3>
+                    <h2>Qui nous somme :</h2>
+                    <p>
+                        Depuis plus de deux décennies, Luxor Construtora est synonyme d'excellence 
+                        dans le secteur de la construction. Depuis notre création en 1990, nous avons consacré
+                         notre passion et notre expertise à réaliser des projets de construction exceptionnels,
+                          construisant non seulement des structures solides, mais également des communautés pros
+                          pères.
+                    </p> <br />
+                    <p>
+                        Notre équipe talentueuse et notre engagement inébranlable envers la qualité ont fait de 
+                        nous un nom de confiance dans l'industrie, et notre vision de l'avenir nous pousse à 
+                        continuer d'innover, de nous développer et de contribuer à un monde construit avec soin, 
+                        éthique et excellence. Rejoignez-nous dans le voyage pour construire un avenir meilleur, 
+                        un projet de construction pour chacun
+                        tourner
+                    </p>
+                </aside>
+            </Section>
+            <Section className="section">
+                <Button value="Demandez votre devis" className='devis-btn' />
+            </Section>
+            <Section className="big-section orange-bg">
+                
+                <p>Mais oui nono</p>
+            </Section>
 
         </>
     )
