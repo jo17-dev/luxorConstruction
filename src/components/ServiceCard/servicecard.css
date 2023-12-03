@@ -1,0 +1,35 @@
+.service-container{
+    border: 2px solid black;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-container{
+    border: 1px solid blue;
+}
+
+.service-item, .service-intro{
+    height: 290px;
+    width: 260px;
+    border: 1px solid purple;
+}
+
+.service-item{
+    background-image: url('/public/images/pointant-au-croquis.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;   
+    background-position: top;
+}
+
+.text-container{
+    height: 100%;
+    background: linear-gradient(0deg, black,black 30%,  transparent);
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container *{
+    /* border: 1px solid purple; */
+    display: block;
+    margin-top: auto;
+}

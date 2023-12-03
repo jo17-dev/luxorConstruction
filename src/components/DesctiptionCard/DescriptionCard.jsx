@@ -1,4 +1,4 @@
-import Img from '../../components/Img/Img';
+import Img from '../Img/Img';
 import './descriptioncard.css';
 
 export const DescriptionCard = (props)=>{

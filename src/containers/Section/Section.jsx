@@ -1,5 +1,5 @@
 import './section.css';
-import { DescriptionCard } from '../DesctiptionCard/DescriptionCard';
+import { DescriptionCard } from '../../components/DesctiptionCard/DescriptionCard';
 import {Button} from '../../components/Forms/Button/Button';
 import { Children } from 'react';
 

@@ -61,7 +61,8 @@
     border-radius: 0% 2% 5% 5%;
     box-shadow: 0px 3px 10px 0px var(--shadow-color);
     padding-right: 5%;
-}
+    overflow: scroll;
+} 
 .right h3{
     color: var(--base-orange);
 }

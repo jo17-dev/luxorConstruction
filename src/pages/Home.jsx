@@ -2,6 +2,7 @@ import Header from "../containers/Header/Header";
 import Img from "../components/Img/Img";
 import { Button } from "../components/Forms/Button/Button";
 import { Section } from "../containers/Section/Section";
+import ServiceCard from "../components/ServiceCard/ServiceCard";
 import './home.css';
 
 const Home = ()=> {
@@ -52,9 +53,27 @@ const Home = ()=> {
             <Section className="section">
                 <Button value="Demandez votre devis" className='devis-btn' />
             </Section>
-            <Section className="big-section orange-bg">
-                
-                <p>Mais oui nono</p>
+            <Section idSection="services" className="big-section orange-bg section-flex">
+                <div className="service-container section-flex">
+                    <ServiceCard
+                        type="label"
+                        title="Construction résidentielle"
+                        description="description de la construction résidentielle"
+                        className="service-intro"
+                    />
+                    <ServiceCard
+                        type="service-item"
+                        title="Construction résidentielle"
+                        description="description de la construction résidentielle"
+                        className="service-item"
+                    />
+                    <ServiceCard
+                        type="service-item"
+                        title="Construction résidentielle"
+                        description="description de la construction résidentielle"
+                        className="service-item"
+                    />
+                </div>
             </Section>
 
         </>

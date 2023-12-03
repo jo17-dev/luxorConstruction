@@ -39,3 +39,13 @@
 .orange-bg{
     background-color: var(--base-orange);
 }
+
+.section-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+/* service item */
