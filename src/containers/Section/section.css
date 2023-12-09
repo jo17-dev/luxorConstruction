@@ -43,8 +43,9 @@
 .section-flex{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content:flex-start;
     color: white;
 }
 

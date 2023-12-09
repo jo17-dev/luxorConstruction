@@ -57,20 +57,45 @@ const Home = ()=> {
                 <div className="service-container section-flex">
                     <ServiceCard
                         type="label"
-                        title="Construction résidentielle"
-                        description="description de la construction résidentielle"
+                        title="Nos solutions"
+                        description="Chez luxor, nous proposons un ensemble complet de solutions de génie civil"
                         className="service-intro"
                     />
                     <ServiceCard
                         type="service-item"
-                        title="Construction résidentielle"
-                        description="description de la construction résidentielle"
+                        title="Construction résidentielle:"
+                        description="De la conception à la livraison, notre équipe spécialisée en 
+                                    construction résidentielle se concentre sur la création d'espaces qui non
+                                    seuleument répondent à vos besoins mais reflete également votre vision."
                         className="service-item"
                     />
                     <ServiceCard
                         type="service-item"
-                        title="Construction résidentielle"
-                        description="description de la construction résidentielle"
+                        title="Projets commerciaux: "
+                        description="Nous sommes spécialistes de la construction civile pour des projets commerciaux.
+                                    Avec qualité et innovation, nous transformons vos idées en projets exceptionnels."
+                        className="service-item"
+                    />
+                    <ServiceCard
+                        type="service-item"
+                        title="Infrastructures urbaines : "
+                        description="Nous construisons les fondations de la ville avec une expertise en infrastructures
+                                    urbaines. L'innovation, la durabilité et le progrès définissent notre engagement
+                                    envers l'avenir."
+                        className="service-item"
+                    />
+                    <ServiceCard
+                        type="service-item"
+                        title="Réhabilitation et restauration"
+                        description="Nous restauront et restructurons des bâtiements. préserver le passé et préparer l'avenir.
+                                    Nous transformons les espaces avec espertise et respect de l'histoire."
+                        className="service-item"
+                    />
+                    <ServiceCard
+                        type="service-item"
+                        title="Conseil technique"
+                        description="Nous proposons des conseils techniques spécialisés e construction civile.
+                                    Nos connaissances et notre expérience sont la base de la réussite de votre projet."
                         className="service-item"
                     />
                 </div>
