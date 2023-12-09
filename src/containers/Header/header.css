@@ -1,4 +1,6 @@
+@import url('../../index.css');
 .header{
+    z-index: 10;
     position: fixed;
     width: 100vw;
     height: 70px;
@@ -6,6 +8,8 @@
     flex-direction: row;
     padding-right: 150px;
     padding-left: 150px;
+    background: linear-gradient(30deg, transparent, #a93f0b 97%);
+    backdrop-filter: blur(10px);
     
 }
 

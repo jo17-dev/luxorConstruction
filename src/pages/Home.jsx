@@ -3,6 +3,7 @@ import Img from "../components/Img/Img";
 import { Button } from "../components/Forms/Button/Button";
 import { Section } from "../containers/Section/Section";
 import ServiceCard from "../components/ServiceCard/ServiceCard";
+import { DescriptionCard } from "../components/DesctiptionCard/DescriptionCard";
 import './home.css';
 
 const Home = ()=> {
@@ -100,7 +101,21 @@ const Home = ()=> {
                     />
                 </div>
             </Section>
-
+            <h1 className="special-title" id="nos-clients">Certains de nos clients</h1>
+            <div className="service-container section-flex">
+                <DescriptionCard
+                    imgLink="/images/londrina-logo.jpg"
+                    className="client-item"
+                />
+                <DescriptionCard
+                    imgLink="/images/hastam-logo.jpg"
+                    className="client-item"
+                />
+                <DescriptionCard
+                    imgLink="/images/raul-fulgencio-logo.jpg"
+                    className="client-item"
+                />
+            </div>
         </>
     )
 }
