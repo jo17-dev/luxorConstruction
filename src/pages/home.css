@@ -94,10 +94,11 @@
 /* =============== contacy section */
 
 #contact{
-    /* background: url('/public/images/footerImage.jpg'); */
-    background: black;
+    background: url('/public/images/footerImage.jpg');
+    /* background: black; */
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position-y: 40%;
     padding: 4px;
     color: white;
 }
@@ -111,11 +112,8 @@
     z-index: 100000;
     background: linear-gradient(180deg, transparent, black);
 }
+
 /* Contact section */
-/* #contact .contact-section-container{
-    z-index: 100000;
-    background-color: black;
-} */
 
 /* Les sections gauches et droites de la section #contact */
 .contact-container > *{
