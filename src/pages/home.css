@@ -84,6 +84,51 @@
     font-size: 2.5rem;
 }
 
+.client-container{
+    margin-top: 70px;
+}
 .client-item{
     margin-inline: auto;
+}
+
+/* =============== contacy section */
+
+#contact{
+    /* background: url('/public/images/footerImage.jpg'); */
+    background: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 4px;
+    color: white;
+}
+
+#contact .contact-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 100vw;
+    z-index: 100000;
+    background: linear-gradient(180deg, transparent, black);
+}
+/* Contact section */
+/* #contact .contact-section-container{
+    z-index: 100000;
+    background-color: black;
+} */
+
+/* Les sections gauches et droites de la section #contact */
+.contact-container > *{
+    /* border: 1px solid blue; */
+    width: 49%;
+}
+
+.contact-container > :nth-child(2){
+    /* border: 1px solid brown; */
+    align-self: flex-start;
+    padding-top: 20px;
+}
+
+.form-btn{
+    padding: 4px;
 }

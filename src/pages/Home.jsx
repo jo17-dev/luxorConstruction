@@ -5,6 +5,7 @@ import { Section } from "../containers/Section/Section";
 import ServiceCard from "../components/ServiceCard/ServiceCard";
 import { DescriptionCard } from "../components/DesctiptionCard/DescriptionCard";
 import './home.css';
+import Form from "../containers/Form/Form";
 
 const Home = ()=> {
     return(
@@ -102,7 +103,7 @@ const Home = ()=> {
                 </div>
             </Section>
             <h1 className="special-title" id="nos-clients">Certains de nos clients</h1>
-            <div className="service-container section-flex">
+            <div className="service-container section-flex client-container">
                 <DescriptionCard
                     imgLink="/images/londrina-logo.jpg"
                     className="client-item"
@@ -115,6 +116,25 @@ const Home = ()=> {
                     imgLink="/images/raul-fulgencio-logo.jpg"
                     className="client-item"
                 />
+            </div>
+            <div className="contact-section-container">
+                <Section idSection="contact">
+                    <h1 className="special-title">Contact</h1>
+                    <div className="contact-container">
+                        <div className="form-container">
+                            <Form/>
+                        </div>
+                        <div>
+                            <h3>Contactez nous</h3>
+                            <p>Grâce au canal du service client, nous sommes disponibles pour vous servir de la meilleur façon</p> <br />
+                            <h3>Nos contacts</h3>
+                            <p>(00)000 000 0000</p>
+                            <p>(00)000 000 0000</p>
+                            <p>luxor@contato.com.br</p> <br />
+                            <h3>Suivez nous</h3>
+                        </div>
+                    </div>
+                </Section>
             </div>
         </>
     )

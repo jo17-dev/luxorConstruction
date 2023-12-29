@@ -13,3 +13,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*::selection{
+  background-color: var(--base-orange);
+  color: white;
+}
