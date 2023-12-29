@@ -6,6 +6,7 @@ import ServiceCard from "../components/ServiceCard/ServiceCard";
 import { DescriptionCard } from "../components/DesctiptionCard/DescriptionCard";
 import './home.css';
 import Form from "../containers/Form/Form";
+import Footer from "../containers/Footer/Footer";
 
 const Home = ()=> {
     return(
@@ -136,6 +137,7 @@ const Home = ()=> {
                     </div>
                 </Section>
             </div>
+            <Footer/>
         </>
     )
 }
