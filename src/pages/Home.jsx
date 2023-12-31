@@ -7,6 +7,11 @@ import { DescriptionCard } from "../components/DesctiptionCard/DescriptionCard";
 import './home.css';
 import Form from "../containers/Form/Form";
 import Footer from "../containers/Footer/Footer";
+import FacebookSvg from "../components/svgs/Facebook/FacebokSvg";
+import InstagramSvg from "../components/svgs/Instagram/InstagramSvg";
+import LinkedInSvg from "../components/svgs/LinkedIn/LinkedInSvg";
+import PhoneSvg from "../components/svgs/Phone/PhoneSvg";
+import WhatsappSvg from "../components/svgs/Whatsapp/WhatsappSvg";
 
 const Home = ()=> {
     return(
@@ -129,10 +134,15 @@ const Home = ()=> {
                             <h3>Contactez nous</h3>
                             <p>Grâce au canal du service client, nous sommes disponibles pour vous servir de la meilleur façon</p> <br />
                             <h3>Nos contacts</h3>
-                            <p>(00)000 000 0000</p>
-                            <p>(00)000 000 0000</p>
+                            <p> <PhoneSvg width="20" height="20" stroke="white" /> (00)000 000 0000</p>
+                            <p> <WhatsappSvg width="20" height="20" stroke="white" /> (00)000 000 0000</p>
                             <p>luxor@contato.com.br</p> <br />
                             <h3>Suivez nous</h3>
+                            <div className="social-links">
+                                <FacebookSvg width="40" height="40" fill="white" stroke="white" /> 
+                                <InstagramSvg width="40" height="40" fill="white" stroke="orange"/>
+                                <LinkedInSvg width="40" height="40" fill="white" />
+                            </div>
                         </div>
                     </div>
                 </Section>

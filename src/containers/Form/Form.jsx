@@ -14,7 +14,7 @@ const Form = ()=>{
                 <Input name="email" type="email" id="email" placeholder="example@gmail.com" required label="Email: " />
             </div>
             <div className="div">
-                <Input name="tel" type="textaera" id="tel" placeholder="Message" required label="Message" />
+                <Input name="tel" type="textaera" id="message" placeholder="Message" required label="Message" />
             </div>
             <div className="div">
                 <Button value="Envoyer" className='form-btn' />

@@ -1,7 +1,12 @@
 import Img from "../../components/Img/Img";
 import "./footer.css";
+import FacebookSvg from "../../components/svgs/Facebook/FacebokSvg";
+import InstagramSvg from "../../components/svgs/Instagram/InstagramSvg";
+import LinkedInSvg from "../../components/svgs/LinkedIn/LinkedInSvg";
 
 const Footer = ()=>{
+    let iconsSize = "25";
+    let iconsColor = "#a93f0b";
     return (
         <div className="footer-container">
         <footer className="footer">
@@ -21,6 +26,11 @@ const Footer = ()=>{
                 <p>(00) 000 000 0000</p>
                 <p>(00) 000 000 0000</p>
                 <p>groupo@contacto.com.br</p>
+                <div className="social-links">
+                    <FacebookSvg width={iconsSize} height={iconsSize} fill={iconsColor} stroke={iconsColor} /> 
+                    <InstagramSvg width={iconsSize} height={iconsSize} fill={iconsColor} stroke={iconsColor}/>
+                    <LinkedInSvg width={iconsSize} height={iconsSize} fill={iconsColor} />
+                </div>
             </div>
             <div className="column">
                 <h3>Localisation</h3>

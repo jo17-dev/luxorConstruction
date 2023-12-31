@@ -126,3 +126,7 @@
 .form-btn{
     padding: 4px;
 }
+
+.social-links > *{
+    margin-right: 4px;
+}
