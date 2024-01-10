@@ -106,7 +106,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     z-index: 100000;
 }
 
@@ -117,10 +117,12 @@
     width: 49%;
 }
 
+/* section droite */
 .contact-container > :nth-child(2){
     align-self: flex-start;
     padding-top: 25px;
     padding-left: 10px;
+    width: 40%;
 }
 
 .form-btn{

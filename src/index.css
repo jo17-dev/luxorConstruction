@@ -17,3 +17,7 @@
   background-color: var(--base-orange);
   color: white;
 }
+
+body{
+  /* width: 100%; */
+}
