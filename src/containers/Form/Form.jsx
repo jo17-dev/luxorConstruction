@@ -1,41 +1,56 @@
+import { useState } from "react";
 import { Button } from "../../components/Forms/Button/Button";
-import Input from "../../components/Forms/Input/Input";
 import "./form.css";
+
 const Form = ()=>{
-    const handleChange = ()=>{
-        console.log("changed !")
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    
+    const handleEmail = (e)=>{
+        setEmail(e.target.value);
+    }
+
+    const handleMessage = (e)=>{
+        setMessage(e.target.value);
     }
 
     return (
         <form>
             <div className="div">
-                <Input name="name" id="name" 
+                <label htmlFor="name">Nom:</label>
+                <input name="name" id="name" 
                     placeholder="Entrez votre nom complet" 
-                    required 
-                    label="Nom:"
-                    onChange={handleChange}
+                    required
                 />
             </div>
             <div className="div">
-                <Input name="tel" id="tel" 
-                    placeholder="Phone number"
-                    required label="Phone number"
+                <label htmlFor="tel">Numéro de téléphone:</label>
+                <input name="tel" id="tel" 
+                    placeholder="+1 514 XXX XXXX"
+                    required
                 />
             </div>
             <div className="div">
-                <Input name="email" type="email" id="email" placeholder="example@gmail.com"
-                    required 
-                    label="Email: " 
+                <label htmlFor="email">Email: </label>
+                <input name="email" type="email" id="email" placeholder="example@gmail.com"
+                    // required 
+                    label="Email: "
+                    onChange={handleEmail}
+                    value={email}
                  />
             </div>
             <div className="div">
-                <Input name="tel" type="textaera" id="message" placeholder="Message"
-                    required 
-                    label="Message" 
+                <label htmlFor="message">Message: </label>
+                <input name="tel" type="textaera" id="message" placeholder="Message"
+                    // required 
+                    label="Message"
+                    onChange={handleMessage}
+                    value={message}
                  />
             </div>
             <div className="div">
-                <Button value="Envoyer" className='form-btn' />
+                <Button value="Envoyer" className='form-btn' disabled={false} />
             </div>
         </form>
     )

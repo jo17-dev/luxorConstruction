@@ -4,7 +4,7 @@ const FacebookSvg = (props)=>{
             width={props.width} height={props.height}
             viewBox="0 0 64 64">
                 <path id="Sélection"
-                fill={props?.fill || "#a93f0b"} stroke={props?.stroke || "#a93f0b"} stroke-width="1"
+                fill={props?.fill || "#a93f0b"} stroke={props?.stroke || "#a93f0b"} strokeWidth="1"
                 d="M 28.00,60.00
                 C -5.38,56.97 -3.90,4.41 30.00,4.00
                     41.27,3.87 49.23,5.91 55.89,16.00
