@@ -17,11 +17,6 @@
   border-radius: 0 0 4px 4px;
 }
 
-/* On hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--main-color);
-}
-
 * {
   margin: 0;
   padding: 0;
