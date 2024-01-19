@@ -6,10 +6,10 @@ const Header = ()=>{
     const createTextLink = (text, link='#')=> { return{text, link}};
     const navData = [
         createTextLink("Acceuil"),
-        createTextLink("Nous sommes", "#qui-nous-somme"),
-        createTextLink("Services"),
-        createTextLink("Partenaires"),
-        createTextLink("Contact")
+        createTextLink("Nous sommes", "#qui-nous-sommes"),
+        createTextLink("Services", "#services"),
+        createTextLink("Partenaires", "#nos-clients"),
+        createTextLink("Contact", "#contact")
     ];
 
     return (

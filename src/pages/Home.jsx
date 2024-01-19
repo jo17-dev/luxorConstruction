@@ -30,7 +30,7 @@ const Home = ()=> {
                 </div>
             </div>
             <Section idSection="avantages" className="avantage-section" />
-            <Section idSection="services" className="section">
+            <Section className="section">
                 <Button value="Demandez votre devis" className='devis-btn' />
             </Section>
             <Section idSection="qui-nous-sommes" className="big-section">
